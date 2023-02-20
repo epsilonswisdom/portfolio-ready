@@ -7,7 +7,7 @@ import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <>
+    <div className="App">
     <NavBar>
       <Routes>
         <Route path='/' element={<HomePage />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path='contact' element={<ContactPage />} />
       </Routes>
     </NavBar>
-    </>
+    </div>
   );
 }
 
