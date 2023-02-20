@@ -1,0 +1,20 @@
+
+.introImg > img {
+  border-radius: 15%;
+  border: 2px solid #8ecca9;
+  max-height: 400px;
+}
+
+.introImg {
+  margin-top: 6vh;
+}
+
+.introHead {
+  font-size: 55px;
+}
+
+.intro {
+  display: inline-flex;
+  font-size: 30px;
+  width: 50%;
+}
