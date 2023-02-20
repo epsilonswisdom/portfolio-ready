@@ -1,7 +1,16 @@
-
+body {
+  background: linear-gradient(180deg, rgb(58, 114, 235));
+  
+}
+.bodyP{
+  border: 2px solid black;
+  font-size: medium;
+  color: rgb(9, 233, 214);
+  text-align: center;
+}
 .introImg > img {
   border-radius: 15%;
-  border: 2px solid #8ecca9;
+  border: 2px solid #086831;
   max-height: 400px;
 }
 
