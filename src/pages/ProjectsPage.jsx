@@ -1,10 +1,12 @@
+import ProjectsList from "./ProjectsList";
+import { projects } from "../data/projectsData.js"
 
-// import { projects } from "../data/projectsData";
+const ProjectsPage = () => {
+  return (
+    <>
+      <ProjectsList projects={projects}/>
+    </>
+  )
+}
 
-// const Projects = () => {
-//   return (
-//     <>
-//     <projects={projects}/>
-//     </>
-//   )
-// }
+export default ProjectsPage

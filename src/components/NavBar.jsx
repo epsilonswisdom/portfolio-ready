@@ -30,6 +30,11 @@ function NavBar() {
             >Resume
             </NavLink>
           </li>
+          <li>
+            <NavLink
+            to='/projects'>Projects
+            </NavLink>
+          </li>
       </ul>
     </nav>
   )
