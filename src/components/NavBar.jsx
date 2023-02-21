@@ -24,6 +24,12 @@ function NavBar() {
             >Contact
             </NavLink>
         </li>
+          <li>
+            <NavLink
+            to='/resume'
+            >Resume
+            </NavLink>
+          </li>
       </ul>
     </nav>
   )
