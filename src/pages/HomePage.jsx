@@ -1,6 +1,6 @@
 import styles from "./HomePage.module.css"
 
-function HomePage() {
+const HomePage = () => {
   return(
   <>
     <div className={styles.homePage}>
